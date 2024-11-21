@@ -1,0 +1,20 @@
+[
+    {
+        "alias": "DEV GCP",
+        "host": "dev.sftp.com",
+        "port": 2022,
+        "username": "user-fintech-apps-dev",
+        "private_key_path": "/path/to/dev_key.pem",
+        "passphrase_env": "SFTP_DEV_PASSPHRASE",
+        "list_dir": "/dev/directory"
+    },
+    {
+        "alias": "PROD GCP",
+        "host": "prod.sftp.com",
+        "port": 2022,
+        "username": "user-fintech-apps",
+        "private_key_path": "/path/to/prod_key.pem",
+        "passphrase_env": "SFTP_PROD_PASSPHRASE",
+        "list_dir": "/prod/directory"
+    }
+]
